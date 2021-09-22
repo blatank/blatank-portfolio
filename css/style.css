@@ -10,7 +10,10 @@ h1 {
   font-size: 24px;
 }
 
-p {
+p,
+h2,
+h3
+{
   margin: 0;
 }
 
@@ -57,4 +60,26 @@ main h2 {
   font-size: 24px;
   font-weight: normal;
   text-align: center;
+  padding: 60px 0;
+}
+
+main h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 16px;
+}
+
+
+
+main p {
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+main img {
+  border: 1px solid #000;
+}
+
+main section + section {
+  margin-top: 60px;
 }
