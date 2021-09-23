@@ -83,3 +83,10 @@ main img {
 main section + section {
   margin-top: 60px;
 }
+
+/* footer */
+footer {
+  padding: 60px 0;
+  color: #aaa;
+  text-align: center;
+}
